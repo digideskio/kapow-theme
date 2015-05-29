@@ -1,1 +1,1 @@
-# kapow-theme
+# Kapow! Theme
