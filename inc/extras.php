@@ -14,6 +14,11 @@
  * @return array
  */
 function my_project_body_classes( $classes ) {
+	global $post;
+
+	// Add the post/page slug.
+	$classes[] = $post->post_name;
+
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';

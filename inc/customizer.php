@@ -6,16 +6,17 @@
  */
 
 /**
- * Add postMessage support for site title and description for the Theme Customizer.
+ * Customizer Housekeeping
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function my_project_customize_register( $wp_customize ) {
+function my_project_cust_reg_housekeeping( $wp_customize ) {
+	// Add postMessage support for site title and description for the Theme Customizer.
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 }
-add_action( 'customize_register', 'my_project_customize_register' );
+add_action( 'customize_register', 'my_project_cust_reg_housekeeping' );
 
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
