@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: My Project\n"
-"POT-Creation-Date: 2015-09-16 20:06+0100\n"
-"PO-Revision-Date: 2015-09-16 20:06+0100\n"
+"POT-Creation-Date: 2015-09-17 11:32+0100\n"
+"PO-Revision-Date: 2015-09-17 11:32+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -84,8 +84,102 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
-#: inc/customizer.php:41
+#: inc/customizer.php:43
 msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid ""
+"Upload a custom logo for your site which can be retrieved for use in a "
+"template by using get_theme_mod( 'my_project_logo' ) to fetch the image "
+"source URL."
+msgstr ""
+
+#: inc/meta-boxes.php:38
+msgid "Example Meta Box"
+msgstr ""
+
+#: inc/post-types.php:21 inc/post-types.php:32
+msgid "Plural Name"
+msgstr ""
+
+#: inc/post-types.php:22 inc/taxonomies.php:34
+msgid "Singular Name"
+msgstr ""
+
+#: inc/post-types.php:23
+msgctxt "my-project"
+msgid "Add New Singular Name"
+msgstr ""
+
+#: inc/post-types.php:24 inc/taxonomies.php:30
+msgid "Add New Singular Name"
+msgstr ""
+
+#: inc/post-types.php:25 inc/taxonomies.php:28
+msgid "Edit Singular Name"
+msgstr ""
+
+#: inc/post-types.php:26
+msgid "New Singular Name"
+msgstr ""
+
+#: inc/post-types.php:27
+msgid "View Singular Name"
+msgstr ""
+
+#: inc/post-types.php:28 inc/taxonomies.php:23
+msgid "Search Plural Name"
+msgstr ""
+
+#: inc/post-types.php:29
+msgid "No Plural Name found"
+msgstr ""
+
+#: inc/post-types.php:30
+msgid "No Plural Name found in Trash"
+msgstr ""
+
+#: inc/post-types.php:31
+msgid "Parent Singular Name:"
+msgstr ""
+
+#: inc/taxonomies.php:21
+msgctxt "Taxonomy plural name"
+msgid "Plural Name"
+msgstr ""
+
+#: inc/taxonomies.php:22
+msgctxt "Taxonomy singular name"
+msgid "Singular Name"
+msgstr ""
+
+#: inc/taxonomies.php:24
+msgid "Popular Plural Name"
+msgstr ""
+
+#: inc/taxonomies.php:25
+msgid "All Plural Name"
+msgstr ""
+
+#: inc/taxonomies.php:26 inc/taxonomies.php:27
+msgid "Parent Singular Name"
+msgstr ""
+
+#: inc/taxonomies.php:29
+msgid "Update Singular Name"
+msgstr ""
+
+#: inc/taxonomies.php:31
+msgid "New Singular Name Name"
+msgstr ""
+
+#: inc/taxonomies.php:32
+msgid "Add or remove Plural Name"
+msgstr ""
+
+#: inc/taxonomies.php:33
+msgid "Choose from most used my-project"
 msgstr ""
 
 #: inc/template-tags.php:28
@@ -130,7 +224,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: inc/theme-setup.php:29
+#: inc/theme-setup.php:31
 msgid "Primary Menu"
 msgstr ""
 
@@ -179,15 +273,6 @@ msgstr ""
 msgid "My Project"
 msgstr ""
 
-#. Theme URI of the plugin/theme
-#. Author URI of the plugin/theme
-msgid "http://underscores.me/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid "Description"
-msgstr ""
-
 #. Author of the plugin/theme
-msgid "Author Name"
+msgid "Author Name <hello@my-project.com>"
 msgstr ""
