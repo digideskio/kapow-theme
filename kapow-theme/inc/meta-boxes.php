@@ -2,12 +2,15 @@
 /**
  * Custom meta boxes for this theme.
  *
- * Ensure that you have added required Custom Meta Boxes in functions.php.
+ * Ensure that you have installed Custom Meta Boxes via Composer.
  *
  * @link https://github.com/humanmade/Custom-Meta-Boxes
  *
  * @package My Project
  */
+
+// Include Human Made's Custom Meta Boxes if it has been installed with Composer.
+include get_template_directory() . '/inc/vendor/humanmade/custom-meta-boxes/custom-meta-boxes.php';
 
 /**
  * Create meta boxes.
