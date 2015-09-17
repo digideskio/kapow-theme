@@ -8,11 +8,11 @@ Coming soon...
 
 ## Requirements
 
-Kapow! Grunt is designed to work along side the other Kapow! modules: [Skeleton](https://github.com/mkdo/kapow-skeleton), [Sass](https://github.com/mkdo/kapow-sass), [Grunt](https://github.com/mkdo/kapow-grunt).
+Kapow! Theme is designed to work along side the other Kapow! modules: [Skeleton](https://github.com/mkdo/kapow-skeleton), [Sass](https://github.com/mkdo/kapow-sass), [Grunt](https://github.com/mkdo/kapow-grunt).
 
 However, this theme can be used independently of Kapow! if you'd like to drop it into your own set-up. 
 
-If this is the case you'll just need to get hold of the unminified assets from [Kapow Skeleton](https://github.com/mkdo/kapow-skeleton) so that you can process these with your own build tools. You may also want to revert some of the modifications made to `wp-config.php` to match your own WordPress set-up.
+If this is the case you'll just need to get hold of the unminified JS and CSS assets from [Kapow Skeleton](https://github.com/mkdo/kapow-skeleton) so that you can process these with your own build tools. You may also want to revert some of the modifications made to `wp-config.php` to match your own WordPress set-up.
 
 ## Installation
 
