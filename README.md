@@ -30,4 +30,4 @@ You can also add a custom logo in the 'Site Identity' section of the Apperance >
 
 ## Changelog
 
-**0.1.0** - *17.09.2015* - Initial release, requires additional testing in the wild.
+**01.0.0** - *17.09.2015* - Initial release, requires additional testing in the wild.
