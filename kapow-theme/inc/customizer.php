@@ -40,10 +40,11 @@ function my_project_cust_reg_logo( $wp_customize ) {
 			$wp_customize,
 			'my_project_logo',
 			array(
-				'label'    => __( 'Site Logo', 'my-project' ),
-				'section'  => 'title_tagline',
-				'settings' => 'my_project_logo',
-				'priority' => 1,
+				'label'       => __( 'Site Logo', 'my-project' ),
+				'description' => __( 'Upload a custom logo for your site which can be used in your theme templates.', 'my-project' ),
+				'section'     => 'title_tagline',
+				'settings'    => 'my_project_logo',
+				'priority'    => 1,
 			)
 		)
 	);
