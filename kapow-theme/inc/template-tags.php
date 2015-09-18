@@ -59,7 +59,7 @@ if ( ! function_exists( 'my_project_entry_footer' ) ) :
 			}
 		}
 
-		if ( ! ismy_projectingle() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+		if ( ! is_my_project_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 			echo '<span class="comments-link">';
 			comments_popup_link( esc_html__( 'Leave a comment', 'my_project' ), esc_html__( '1 Comment', 'my_project' ), esc_html__( '% Comments', 'my_project' ) );
 			echo '</span>';
