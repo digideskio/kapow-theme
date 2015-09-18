@@ -44,7 +44,7 @@ If this is the case you'll just need to get hold of the unminified JS and CSS as
 - **Author Name** = your or your organisation's name
 - **hello@<span></span>my-project.com** = your email address
 
-**3)**. Copy it to the `/wp-content/themes/` directory.
+**3)**. Copy the theme folder to the `/wp-content/themes/` directory.
 
 **4)**. Activate the theme through the 'Themes' menu in WordPress.
 
