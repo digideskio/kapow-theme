@@ -11,7 +11,7 @@
 /**
  * Set up the WordPress core custom background feature.
  */
-function my_project_custom_header_setup() {
+function my_project_custom_background() {
 
 	add_theme_support( 'custom-background', apply_filters( 'my_project_custom_background_args', array(
 		'default-color' => 'ffffff',
@@ -35,7 +35,7 @@ add_action( 'after_setup_theme', 'my_project_custom_background' );
  * @uses my_project_admin_header_style()
  * @uses my_project_admin_header_image()
  */
-function my_project_custom_header_setup() {
+function my_project_custom_header() {
 	add_theme_support( 'custom-header', apply_filters( 'my_project_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
