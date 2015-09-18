@@ -4,7 +4,7 @@ The Theme component of the Kapow! boilerplate/framework for WordPress site devel
 
 ## About
 
-The Kapow! Theme 
+The Kapow! Theme provides a rock solid boilerplate for developing your next theme whether it be for a client or for the Wordpress.org/.com repositories. Originally a fork of the popular _s/Underscores theme by Automattic, the Kapow! Theme takes some of what _s brought to the table and upgrades it to help save your time.
 
 Features of Kapow! Theme include:
 
@@ -30,17 +30,29 @@ Kapow! Theme is designed to work along side the other Kapow! modules: [Skeleton]
 
 However, this theme can be used independently of Kapow!
 
-If this is the case you'll just need to get hold of the unminified JS and CSS assets from [Kapow Skeleton](https://github.com/mkdo/kapow-skeleton) so that you can process these with your own build tools. You may also want to revert some of the modifications made to `wp-config.php` to match your own WordPress set-up.
+If this is the case you'll just need to get hold of the unminified JS and CSS assets from [Kapow Skeleton](https://github.com/mkdo/kapow-skeleton) so that you can process these with your own build tools. 
 
 ## Installation
 
-**1)**. Rename `kapow-theme` then copy/upload it to the `/wp-content/themes/` directory.
+**1)**. Rename the `kapow-theme` in this repo to match your desired theme name.
 
-**2)**. Activate the theme through the 'Themes' menu in WordPress.
+**2)**. Open the theme folder in your text/code editor and do a ***case sensitive*** find and replace for each of these strings of text, replacing them with project specific alternatives:
 
-**3)**. Make a nice hot cup of tea/coffee and bask in your magnificence!
+- **My Project** = "proper" name 
+- **my-project** = "slug" name, theme directory slug and theme textdomain
+- **my_project** = database name & function name prefix
+- **Author Name** = your or your organisation's name
+- **hello@<span></span>my-project.com** = your email address
+
+**3)**. Copy it to the `/wp-content/themes/` directory.
+
+**4)**. Activate the theme through the 'Themes' menu in WordPress.
+
+**5)**. Make a nice hot cup of tea/coffee and bask in your magnificence!
 
 ## Usage
+
+You may  want to revert some of the modifications made to `wp-config.php` to match your own WordPress set-up.
 
 Enhance your theme by editing files referenced in `functions.php` that reside in the `/inc/` directory e.g. register custom post types and taxonomies, add/remove theme support, turn on custom theme features etc.
 
