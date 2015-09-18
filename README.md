@@ -4,7 +4,7 @@ The Theme component of the Kapow! boilerplate/framework for WordPress site devel
 
 ## About
 
-The Kapow! Theme provides a rock solid boilerplate for developing your next theme whether it be for a client or for the Wordpress.org/.com repositories. Originally a fork of the popular _s/Underscores theme by Automattic, the Kapow! Theme takes some of what _s brought to the table and upgrades it to help save your time.
+The Kapow! Theme provides developers with a solid foundation for developing their next theme whether it be for a client site or for the Wordpress theme repository. Originally a fork of the popular _s/Underscores theme by Automattic, the Kapow! Theme has evolved into a time saving and feature rich WordPress theme boilerplate.
 
 Features of Kapow! Theme include:
 
