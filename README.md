@@ -60,4 +60,5 @@ You can also add a custom logo in the 'Site Identity' section of the Apperance >
 
 ## Changelog
 
+**1.1.0** - *23.10.2015& - Slight restructure to accomodate new Kapow! bower asset syncing.
 **1.0.0** - *17.09.2015* - Initial release, requires additional testing in the wild.
