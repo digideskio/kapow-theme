@@ -73,4 +73,4 @@ require get_template_directory() . '/inc/compatibility.php';
 /**
  * Custom theme features (header image, background image etc).
  */
-// require get_template_directory() . '/inc/custom-header.php';
+// require get_template_directory() . '/inc/theme-features.php';

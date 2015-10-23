@@ -28,7 +28,7 @@
 	<?php wp_head(); ?>
 
 	<!--[if lt IE 9]>
-		<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/header_ie.min.js"></script>
+		<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>assets/js/header_ie.min.js"></script>
 	<![endif]-->
 </head>
 
