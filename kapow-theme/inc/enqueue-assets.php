@@ -13,10 +13,10 @@
  */
 function my_project_assets() {
 	// Header JS.
-	wp_enqueue_script( 'header', get_template_directory_uri() . 'assets/js/header.min.js', array(), '0.1', false );
+	wp_enqueue_script( 'header', get_template_directory_uri() . '/assets/js/header.min.js', array(), '0.1', false );
 
 	// Footer JS.
-	wp_enqueue_script( 'footer', get_template_directory_uri() . 'assets/js/footer.min.js', array( 'jquery' ), '0.1', true );
+	wp_enqueue_script( 'footer', get_template_directory_uri() . '/assets/js/footer.min.js', array( 'jquery' ), '0.1', true );
 
 	// Comments JS.
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
