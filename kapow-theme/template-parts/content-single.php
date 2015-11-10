@@ -11,6 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> role="article">
 	<header class="entry-header">
+
 		<?php do_action( 'my_project_featured_image' ); ?>
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
@@ -18,6 +19,7 @@
 		<div class="entry-meta">
 			<?php my_project_posted_on(); ?>
 		</div><!-- .entry-meta -->
+
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
@@ -38,7 +40,9 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+
 		<?php my_project_entry_footer(); ?>
+
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 

@@ -11,11 +11,15 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
+
 		<?php do_action( 'my_project_featured_image' ); ?>
+
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'my-project' ); ?></h1>
+
 	</header><!-- .page-header -->
 
 	<div class="page-content">
+
 		<?php do_action( 'my_project_before_post_content' ); ?>
 
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
