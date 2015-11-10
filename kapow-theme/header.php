@@ -45,16 +45,20 @@
 		<?php do_action( 'my_project_before_header_content' ); ?>
 
 		<div class="site-branding">
+
 			<?php if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php endif; ?>
+
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="site-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Main Menu', 'my-project' ); ?></button>
+
 			<?php do_action( 'my_project_before_primary_nav' ); ?>
 
 			<?php
@@ -68,6 +72,7 @@
 			?>
 
 			<?php do_action( 'my_project_after_primary_nav' ); ?>
+
 		</nav><!-- .site-navigation -->
 
 		<?php do_action( 'my_project_after_header_content' ); ?>
