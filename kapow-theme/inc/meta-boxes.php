@@ -2,18 +2,13 @@
 /**
  * Custom meta boxes for this theme.
  *
- * Ensure that you have installed Custom Meta Boxes via Composer, and
- * that both the include and add_filter statements are uncommented.
+ * Ensure that you have installed Custom Meta Boxes as a mu-plugin either
+ * manually or via Composer, and that the add_filter statement is uncommented.
  *
  * @link https://github.com/humanmade/Custom-Meta-Boxes
  *
  * @package My Project
  */
-
-/**
- * Include Human Made's Custom Meta Boxes if it has been installed with Composer.
- */
-// include get_template_directory() . '/inc/vendor/humanmade/custom-meta-boxes/custom-meta-boxes.php';
 
 /**
  * Create meta boxes.
@@ -27,7 +22,7 @@
  */
 function my_project_create_meta_boxes( array $meta_boxes ) {
 
-	// Example fields.
+	// Example field.
 	$example_fields = array(
 		array(
 		    'id'   => 'example-field-text',
