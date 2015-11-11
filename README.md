@@ -9,19 +9,12 @@ The Kapow! Theme provides developers with a solid foundation for developing thei
 Features of Kapow! Theme include:
 
 - Clearly defined theme structure following best theme development practices
-
 - Complete set of default page templates and associated template parts
-
 - More granular approach to setting up and enhancing theme functions/features
-
 - Example functions to help you with registering post types, taxonomies etc
-
 - Several useful action hooks for adding enhancements to theme templates
-
 - WCAG compliant markup and navigation as well as useful content filters
-
 - Fully translatable with default language files supplied
-
 - PHP code that complies with the WordPress coding standards
 
 ## Requirements
@@ -33,6 +26,8 @@ However, this theme can be used independently of Kapow!
 If this is the case you'll just need to get hold of the unminified JS and CSS assets from [Kapow Skeleton](https://github.com/mkdo/kapow-skeleton) so that you can process these with your own build tools. 
 
 ## Installation
+
+**If you are planning on using the full Kapow! boilerplate for your next project, we have a [setup script](https://github.com/mkdo/kapow-setup) to help you get up and running *fast*.**
 
 **1)**. Rename the `kapow-theme` in this repo to match your desired theme name.
 
