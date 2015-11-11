@@ -38,7 +38,7 @@ If this is the case you'll just need to get hold of the unminified JS and CSS as
 - **my_project** = database name & function name prefix
 - **Author Name** = your or your organisation's name
 - **hello@<span></span>my-project.com** = your email address
-- **www<span></span>.<span></span>my-project.com** = your website address
+- **www&#8203;.&#8203;my-project.com** = your website address
 
 **3)**. Copy the theme folder to the `/wp-content/themes/` directory.
 
