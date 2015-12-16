@@ -31,6 +31,8 @@
 
 </div><!-- .site -->
 
+<?php do_action( 'my_project_before_wp_footer' ); ?>
+
 <?php wp_footer(); ?>
 
 </body>
