@@ -26,6 +26,8 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 	<?php wp_head(); ?>
+	
+	<?php do_action( 'my_project_after_wp_head' ); ?>
 
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>assets/js/header_ie.min.js"></script>
