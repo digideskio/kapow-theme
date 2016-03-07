@@ -25,6 +25,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+	<?php do_action( 'my_project_before_wp_head' ); ?>
+	
 	<?php wp_head(); ?>
 	
 	<?php do_action( 'my_project_after_wp_head' ); ?>
