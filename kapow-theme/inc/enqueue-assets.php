@@ -33,10 +33,10 @@ add_action( 'wp_enqueue_scripts', 'my_project_assets' );
  */
 function my_project_admin_assets() {
 	// Admin stylesheet.
-	wp_enqueue_style( 'my-project-style', get_template_directory_uri() . 'assets/css/admin.min.css' );
+	wp_enqueue_style( 'my-project-style', get_template_directory_uri() . '/assets/css/admin.css' );
 
 	// Editor stylesheet.
-	wp_enqueue_style( 'my-project-style', get_template_directory_uri() . 'assets/css/editor.min.css' );
+	wp_enqueue_style( 'my-project-style', get_template_directory_uri() . '/assets/css/editor.css' );
 }
 add_action( 'admin_enqueue_scripts', 'my_project_admin_assets' );
 
